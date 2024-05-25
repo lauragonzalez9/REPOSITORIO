@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="flex">
+    <div class="flex">
+        <img class="logo" src="imagenes/Logo .png" alt="">
+        <input type="checkbox" id="menu" />
+        <label for="menu"><img src="imagenes/menu copy.png" class="menu-icono" alt=""></label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="link">Contacto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img src="imagenes/carrito.png" id="img.carrito" alt="">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-3" >Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="promo container" id="lista-1">
+        <h3>Promociones</h3>
+        <div class="categories">
+            
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Promo 1</h3>
+                <div class="prices">
+                    <p class="price-1">20.000</p>
+                    <p class="precio">14.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="1" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 7.jpeg" alt="">
+            </div>
+          </div>
+    
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Promo 2</h3>
+                <div class="prices">
+                    <p class="price-1">20.000</p>
+                    <p class="precio">14.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="2" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 5.jpeg" alt="">
+            </div>
+          </div>
+    
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Promo 3</h3>
+                <div class="prices">
+                    <p class="price-1">20.000</p>
+                    <p class="precio">14.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="3" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 6.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Combo 1</h3>
+                <div class="prices">
+                    <p class="price-1">20.000</p>
+                    <p class="precio">15.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="1" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 2.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Combo 2</h3>
+                <div class="prices">
+                    <p class="price-1">15.000</p>
+                    <p class="precio">10.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="1" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 3.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="categorie">
+            <div class="categories-1">
+                <h3>Combo 3</h3>
+                <div class="prices">
+                    <p class="price-1">20.000</p>
+                    <p class="precio">15.000</p>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="1" >Agregar al carrito</a>
+            </div>
+            <div class="categorie-img">
+                <img src="imagenes/imagen 4.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+    <section class="products container" id="lista-3">
+        <h2>Nuevos productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide">
+    
+                    <div class="product">
+                        <img src="imagenes/imagen 9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Nombre</h3>
+                            <p class="precio">$25.000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/imagen 10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Nombre</h3>
+                            <p class="precio">$30.000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/imagen 11.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Nombre</h3>
+                            <p class="precio">$27.000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/imagen 12.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Nombre</h3>
+                            <p class="precio">$23.000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
